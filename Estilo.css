@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap"); !important
+
+
+.header__h1 {
+  
+  color: #804a24;
+  font-weight: bold;
+  text-align: center; }
+
+.title {
+  color: #804a24; }
+
+.body {
+  background-color: #e3deca; }
+
+ul {
+  list-style: none; }
+
+#caja {
+  border: 4px;
+  padding: 5px;
+  margin: 20px; }
+
+#imagentortas {
+  margin-top: 60px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 40px; }
+
+.ListadeProductos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around; }
+
+#productosDulces {
+  flex-basis: 100px; }
+
+#imagenes {
+  display: grid;
+  grid-template-areas: "cheesecakeFrutosRojos tortaOreo "
+ "lemonPie miniPostres "; }
+
+#imagenes .cheesecakeFrutosRojos {
+  grid-area: cheesecakeFrutosRojos; }
+
+#imagenes .tortaOreo {
+  grid-area: tortaOreo; }
+
+#imagenes .lemonPie {
+  grid-area: lemonPie; }
+
+#imagenes .miniPostres {
+  grid-area: miniPostres; }
+
+img {
+  width: 1500px;
+  height: 700px;
+  margin-right: 5em; }
+
+.menudenavegacion {
+  height: 200px;
+  transition: height 2s; }
+
+.menudenavegacion: hover {
+  height: 500px; }
+
+footer {
+  color: #59473d; }
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.colorMarronTitulo  {
+  color: #804a24;
+}
+
+.colorBeige {
+  color: #59473d;
+}
+
+table tr td {
+  color: #917666;
+}
+
+
+body    {
+
+  background-color: #e3deca;
+
+}
+
+footer  {
+  color:  #59473d ;
+}
+
+.colorBlanco  {
+  color:#faf2ff;
+}
+
+ nav li a   {
+  color: #59473d;
+}
+
+
+
+h1  {
+  font-weight: bold;
+  text-align: center;
+}
+
+html{ font-family: 'Dancing Script', cursive;
+
+font-size: 25px 
+}
+input   {
+  color: #59473d
+}
+
+ul { 
+  list-style:none; 
+}
+
+p   {text-align: left;}
+
+#caja {
+  border: 4px;
+  padding:5px;
+  margin: 20px;
+}
+
+
+#imagentortas {
+   margin-top: 60px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 40px; }
+
+.ListadeProductos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+
+
+  
+}
+
+#productosDulces  {
+  width: 100px;
+}
+
+
+  #imagenes   {
+    display: grid;
+    grid-template-areas: "cheesecakeFrutosRojos tortaOreo "
+    "lemonPie miniPostres "
+  }
+
+  #imagenes .cheesecakeFrutosRojos  {
+    grid-area: cheesecakeFrutosRojos;
+  
+
+  }
+    #imagenes .tortaOreo  {
+    grid-area: tortaOreo;
+  
+  }
+    #imagenes .lemonPie {
+    grid-area: lemonPie;
+  
+  }
+    #imagenes .miniPostres  {
+    grid-area: miniPostres;
+
+  }
+    
+    img {
+  width: 1500px;
+  height: 700px;
+  margin-right: 5em;
+}
