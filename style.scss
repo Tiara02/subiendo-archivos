@@ -1,0 +1,87 @@
+@import url(menu.css);
+
+$colorMarronTitulo: #804a24;
+
+$colorBeige: #59473d;
+
+$font:'Dancing Script', cursive;
+
+$background-color: #e3deca;
+  
+
+body {
+ background-color:$background-color;
+ font-family:$font !important;
+ }
+.header__div  {
+  color: $colorBeige;
+  font-family: $font !important;
+}
+ .header__h1 {
+  color: $colorMarronTitulo;
+  text-align: center;
+  font-weight: bold;}
+
+.title  {
+  color: $colorMarronTitulo;
+}
+
+ul { 
+  list-style:none; 
+}
+#caja {
+  border: 4px;
+  padding:5px;
+  margin: 20px;
+}
+#imagentortas {
+    width: 50%,
+  margin 0 auto }
+
+  
+
+  #productosDulces  {
+   flex-basis: 100px;
+}
+
+
+  #imagenes   {
+    display: grid;
+    grid-template-areas: "cheesecakeFrutosRojos tortaOreo "
+    "lemonPie miniPostres "
+  }
+
+  #imagenes .cheesecakeFrutosRojos  {
+    grid-area: cheesecakeFrutosRojos;
+  
+
+  }
+    #imagenes .tortaOreo  {
+    grid-area: tortaOreo;
+  
+  }
+    #imagenes .lemonPie {
+    grid-area: lemonPie;
+  
+  }
+    #imagenes .miniPostres  {
+    grid-area: miniPostres;
+  }
+    
+    img {
+  width: 1500px;
+  height: 700px;
+  margin-right: 5em;
+}
+
+.menudenavegacion {
+   height: 200px;
+   transition: height 2s;
+   
+}
+.menudenavegacion:hover {
+   height: 500px;
+}
+footer  {
+color: $colorBeige;
+}
